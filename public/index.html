@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="TheJollyLaMa">
+    <meta name="description" content="MEAN_Stack">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" type="image/jpg" href="./img/fidfern.jpeg"/>
+
+    <title>Upstate Fiddles</title>
+  </head>
+  <body ng-app="ClientWebApp">
+    <header>
+      <div class="row">
+        <div class="col-xs-4"><a href="#!/FiddleMarket" style="text-decoration:none;"><h1>Fiddle Market</h1></a></div>
+        <div class="col-xs-4"><a href="#!/About" style="text-decoration:none;"><h1>About</h1></a></div>
+        <div class="col-xs-4"><a href="#!/BehindTheCounter/PickersDash" style="text-decoration:none;"><h1>Picker's Dashboard</h1></a></div>
+      </div>
+    </header>
+    <div class="container">
+        <div class="mainViewWindow">
+          <ng-view></ng-view>
+        </div>
+    </div>
+    <footer>
+      <div class="row">
+        <div class="col-xs-4"><a href="#!/BehindTheCounter/FiddlersLedger" style="text-decoration:none;"><h3>BehindTheCounter</h3></a></div>
+        <div class="col-xs-4"><a href="#!/About" style="text-decoration:none;"><h3>About</h3></a></div>
+        <div class="col-xs-4"><a href="#!/BehindTheCounter/PickersDash" style="text-decoration:none;"><h3>Picker's Dashboard</h3></a></div>
+      </div>
+      <div class="row">
+        <div class="col-xs-4">🌎🌏 License: MIT 🌍🌎</div>
+        <div class="col-xs-4">
+          Master Fiddle Picker's Union
+        </div>
+        <div class="col-xs-4">🌎🌏 1 Feb 2022 🌍🌎</div>
+        <br>
+      </div>
+    </footer>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/angular.min.js"></script>
+    <script type="text/javascript" src="js/angular-route.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/ClientWebApp.js"></script>
+    <script type="text/javascript" src="js/Controllers/FiddleMarketController.js"></script>
+    <script type="text/javascript" src="js/Controllers/BehindTheCounterController.js"></script>
+    <script type="text/javascript" src="js/Controllers/AuthController.js"></script>
+    <script type="text/javascript" src="js/Services/FiddleMarketFactory.js"></script>
+    <script type="text/javascript" src="js/Services/AuthFactory.js"></script>
+  </body>
+</html>

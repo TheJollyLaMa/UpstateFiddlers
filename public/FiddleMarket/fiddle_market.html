@@ -1,0 +1,29 @@
+<div class="fiddlemarket">
+  <br><h3>{{title}}</h3><hr><br>
+  <div class="row">
+    <div class="col-xs-4">
+      <br>
+      <div class="row">Fiddleheads on Hand: <br> <h1>{{lbs_stored}}</h1> lbs. </div>
+      <br><br><br><br><br>
+      <div class="row">Expected Harvest left this season: <br> <h1>{{lbs_expected}}</h1> lbs. </div>
+    </div>
+    <div class="col-xs-4">
+      
+      <form ng-submit="buyFiddleHeads(buy_weight)">
+        <label for="buy_fiddle_heads">Enter the weight of fiddleheads you'd like to buy:</label><br>
+        <input type="number" name="buy_fiddle_heads" ng-model="buy_weight" placeholder="lbs to buy"><br>
+        <input type="submit" value="Buy">
+      </form>
+      <br><br><br>
+      <form ng-submit="reserveFiddleHeads(reserve_weight)">
+        <label for="reserve_fiddle_heads">Enter the weight of fiddleheads you'd like to reserve:</label><br>
+        <input type="number" name="reserve_fiddle_heads" ng-model="reserve_weight" placeholder="lbs to reserve"><br>
+        <input type="submit" value="Reserve">
+      </form>    </div>
+    <div class="col-xs-4">
+      <br>
+      <div class="row">Fiddleheads Payed for and not yet Received/Refunded: <br> <h1>{{lbs_stored}}</h1> lbs. </div>
+      <br><br><br><br><br>
+      <div class="row">Fiddleheads Payed for and not yet Received/Refunded: <br> <h1>{{lbs_expected}}</h1> lbs. </div>    </div>
+  </div>
+</div>

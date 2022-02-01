@@ -1,0 +1,26 @@
+<div class="fiddlers_ledger" >
+  <br><h3>{{title.fiddlers_ledger}}</h3><hr><br>
+  <div class="row">
+    <div class="col-xs-12">
+      <!-- a form to enter harvest inventory -->
+      <form ng-submit="addHarvest(harvest)">
+        <label for="harvest_weight">Enter the weight of fiddleheads you've harvested:</label><br>
+        <input type="number" name="harvest_weight" ng-model="harvest.harvest_weight" placeholder="lbs harvested"><br>
+        <!-- a description box to explain any details about the harvest -->
+        <label for="harvest_description">Enter any details about the harvest:</label><br>
+        <textarea name="harvest_description" ng-model="harvest.harvest_description" placeholder="details about harvest"></textarea><br>
+        <input type="submit" value="Add Harvest">
+
+      </form>
+      <!-- a form to enter fiddleheads sold -->
+      <form ng-submit="logSale(sale)">
+        <label for="sell_fiddle_heads">Enter the weight of fiddleheads you've sold:</label><br>
+        <input type="number" name="sell_fiddle_heads" ng-model="sale.sell_weight" placeholder="lbs sold"><br>
+        <!-- a description box to explain any details about the sale and or customer -->
+        <label for="sale_description">Enter any details about the sale:</label><br>
+        <textarea name="sale_description" ng-model="sale.sale_description" placeholder="details about sale"></textarea><br>
+        <input type="submit" value="Log Sale">
+      </form>
+    </div>
+  </div>
+</div>
