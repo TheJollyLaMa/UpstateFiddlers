@@ -23,9 +23,16 @@ A fiddlehead lover hears about your page and navigates to the website.  They see
 They navigate to the market and notice fiddleheads are in season!  Every day, you log your weight and snap a photo.  It goes up on 
 the front end "Fiddle Market" so people can request it or a portion of it by email.
 
-The next steps are:
-    Deploy to your domain and customize it a little more with your domain email in the contact info
-    Set up the database (everything you see here is just mock up data without a database linked to it)
-    Hook up payment gateways with paypal, googlepay, applepay, stripe, etc
+### Next Steps
 
-    ... and then crypto is where we can get much more creative.
+    - Deploy to your domain and customize it a little more with your domain email in the contact info
+    - Set up the database (everything you see here is just mock up data without a database linked to it)
+    - Hook up payment gateways with paypal, googlepay, applepay, stripe, etc
+
+    - and then crypto is where we can get much more creative.
+
+### Working Screenshots
+![Use Case Diagram](https://github.com/TheJollyLaMa/UpstateFiddlers/blob/eb5f0b4f872ef541bc408491f6b17f3140696676/public/img/sc1.png)
+![Use Case Diagram](https://github.com/TheJollyLaMa/UpstateFiddlers/blob/eb5f0b4f872ef541bc408491f6b17f3140696676/public/img/sc2.png)
+![Use Case Diagram](https://github.com/TheJollyLaMa/UpstateFiddlers/blob/eb5f0b4f872ef541bc408491f6b17f3140696676/public/img/sc3.png)
+![Use Case Diagram](https://github.com/TheJollyLaMa/UpstateFiddlers/blob/eb5f0b4f872ef541bc408491f6b17f3140696676/public/img/sc_login.png)
